@@ -7,7 +7,6 @@
   src: url('/fonts/Silka-Regular.otf') format('opentype');
 }
 
-
 @font-face {
   font-family: 'silkaMedium';
   src: url('/fonts/Silka-Medium.otf') format('opentype');
@@ -21,7 +20,7 @@
 
 body{
   background:#F7F2F2;
-  padding-top: 60px;
+  padding-top: 50px;
   font-family: silkaMedium ;
 }
 
