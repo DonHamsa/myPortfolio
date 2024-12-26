@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'silka';
+  src: url('/fonts/Silka-Regular.otf') format('opentype');
+}
+
+
+@font-face {
+  font-family: 'silkaMedium';
+  src: url('/fonts/Silka-Medium.otf') format('opentype');
+  font-weight: 300;
+}
+
+
+
+
+
+
+body{
+  background:#F7F2F2;
+  padding-top: 60px;
+  font-family: silkaMedium ;
+}
+
