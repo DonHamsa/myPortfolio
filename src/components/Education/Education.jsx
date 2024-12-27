@@ -2,10 +2,10 @@ import { IoSchoolOutline } from "react-icons/io5";
 
 export default function Education() {
   return (
-    <div className="rounded-[40px] border-4  flex flex-col  bg-[rgb(24,24,27)] text-[9px] p-7  border-white">
+    <div className="rounded-[30px]  flex flex-col  bg-[rgb(24,24,27)] text-[9px] p-7  border-white">
       <div className="flex mb-[29px]">
-        <IoSchoolOutline className="w-[17px] h-[17px] text-gray-400 mr-[6px] " />
-        <p className="text-white text-[13px]">Education</p>
+        <IoSchoolOutline className="w-[24px] h-[24px] text-gray-400 mr-[6px] " />
+        <p className="text-white text-[16px]">Education</p>
       </div>
 
 

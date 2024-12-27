@@ -1,7 +1,7 @@
 
 export default function Techstack() {
   return (
-    <div className=" rounded-[40px] border-2 p-2 flex flex-col items-center justify-center row-span-2 bg-gradient-to-br from-[#1c2b43] to-black  space-y-4  ">
+    <div className=" rounded-[30px] border-2 p-2 flex flex-col items-center justify-center row-span-2 bg-gradient-to-br from-[#1c2b43] to-black  space-y-4  ">
       <p className='font-techStack font-extrabold text-white text-[18px]'>Tech Stack</p>
       <div className="bg-[rgb(15,23,42)] rounded-[30px] h-max text-[10px] p-[16px] bg-gradient-to-br from-[#1c2b43] to-black  w-full ">
         <div className="flex items-center">

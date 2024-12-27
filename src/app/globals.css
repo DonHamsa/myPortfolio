@@ -3,24 +3,23 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'silka';
-  src: url('/fonts/Silka-Regular.otf') format('opentype');
+  font-family: "silka";
+  src: url("/fonts/Silka-Regular.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'silkaMedium';
-  src: url('/fonts/Silka-Medium.otf') format('opentype');
+  font-family: "silkaMedium";
+  src: url("/fonts/Silka-Medium.otf") format("opentype");
   font-weight: 300;
 }
 
-
-
-
-
-
-body{
-  background:#F7F2F2;
+body {
+  background: #f7f2f2;
   padding-top: 50px;
-  font-family: silkaMedium ;
+  font-family: silkaMedium;
 }
 
+main{
+  padding:4% 11% 
+  
+}

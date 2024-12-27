@@ -5,7 +5,6 @@ import MasonryBox from "@/components/MasonaryBox/MasonryBox";
 export default function Home() {
   return (
     <>
-      <Nav />
       <MasonryBox />
     </>
   );

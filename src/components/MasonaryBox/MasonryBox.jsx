@@ -11,7 +11,7 @@ export default function MasonryBox() {
     "bg-white rounded-[40px] border-2 p-2 flex flex-col items-center justify-center";
 
   return (
-    <div className=" overflow-hidden grid grid-cols-4 auto-rows-[300px] gap-4 my-10 px-[10%] ">
+    <div className=" overflow-hidden grid grid-cols-4 auto-rows-[300px] gap-4 ">
       {Array.from({ length: 6 }, (_, i) =>
         i == 0 ? (
           <ProfileBox key={i} />
@@ -19,11 +19,11 @@ export default function MasonryBox() {
           <ProfileImage key={i} />
         ) : i == 2 ? (
           <Techstack key={i} />
-        ) : i === 3 ? (
+        ) : i === 4? (
           <GitHubBox key={i} />
-        ) : i == 4 ? (
+        ) : i == 5 ? (
           <LinkedInBox key={i} />
-        ) : i==5 ? <Education key={i}/> : (
+        ) : i==3? <Education key={i}/> : (
           <div
             key={i}
             className={`${boxStyle} ${i === 6 ? "lg:col-span-2" : ""} ${
