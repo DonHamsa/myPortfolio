@@ -9,6 +9,7 @@ export default function Projects() {
         projectName="PlayPal"
         description="
 An application that helps individuals, especially newcomers, easily find and connect with others interested in playing football."
+link='https://playpal-steel.vercel.app/'
       />
       <ProjectCard
         projectImage="/2048.jpg"
@@ -16,6 +17,7 @@ An application that helps individuals, especially newcomers, easily find and con
         projectName="2048 "
         description="
  A fully functional clone of the 2048 game with core mechanics, including merging tiles,real-time score updates, move detection, and a final score display upon game over."
+ link='https://github.com/DonHamsa/2048-game'
       />
     </div>
 
