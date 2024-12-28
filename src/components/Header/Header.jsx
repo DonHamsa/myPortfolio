@@ -1,26 +1,29 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const pdfURL = "https://donhamsaportfolio.vercel.app/cv.pdf";
 
 export default function Header() {
-  const [activeIndex, setActiveIndex] = useState(null); // Track the active item index
+  const [activeIndex, setActiveIndex] = useState(null);
+  const pathName = usePathname();
 
-  // Handle click event to set active index
   const handleClick = (index) => {
     setActiveIndex(index);
   };
 
-  // const downloadFileAtURL = (url) => {
-  //   const fileName = url.split("/").pop();
-  //   const aTag = document.createElement("a");
-  //   aTag.href = url;
-  //   aTag.setAttribute("download", fileName);
-  //   document.body.appendChild(aTag);
-  //   aTag.click();
-  //   aTag.remove();
-  // };
+  useEffect(() => {
+    if (pathName) {
+      {
+        pathName === "/"
+          ? setActiveIndex(0)
+          : pathName === "/projects"
+          ? setActiveIndex(1)
+          : setActiveIndex(2);
+      }
+    }
+  }, [pathName]);
 
   return (
     <div className="flex lg:justify-between justify-center  bg-blue ml-[30px] mr-[30px] ">
@@ -41,21 +44,22 @@ export default function Header() {
             <p
               onClick={() => handleClick(index)} // Update active index on click
               className={`flex-grow text-center h-full flex items-center justify-center rounded-[19px] cursor-pointer
-             ${index === 0 && !activeIndex && "bg-white"} ${
-                activeIndex === index
-                  ? "bg-white text-black"
-                  : "bg-transparent text-black hover:bg-gray-200"
-              }`} // Apply styles based on activeIndex
+             ${
+               activeIndex === index
+                 ? "bg-white text-black"
+                 : "bg-transparent text-black hover:bg-gray-200"
+             }`} // Apply styles based on activeIndex
             >
               {item}
             </p>
           </Link>
         ))}
       </div>
-      <Link href="https://donhamsaportfolio.vercel.app/cv.pdf" className="lg:items-center lg:flex hidden cursor-pointer relative right-[10%]">
-        <div>
-          CV
-        </div>
+      <Link
+        href="https://donhamsaportfolio.vercel.app/cv.pdf"
+        className="lg:items-center lg:flex hidden cursor-pointer relative right-[10%]"
+      >
+        <div>CV</div>
       </Link>
     </div>
   );
