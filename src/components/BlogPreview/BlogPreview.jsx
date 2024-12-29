@@ -12,7 +12,7 @@ export default function BlogPreview({heading, synopsis, date}){
           <p className="text-[12px]">Read More</p>
         </div>
 
-        <p className='text-gray-600 text-[13px]'>{date}</p>
+        <p className=' text-[13px] text-gray-400'>{date}</p>
 
       </div>
 
