@@ -13,7 +13,8 @@ export default {
       },
       fontFamily: {
         custom: ["silkaMedium"],
-        techStack: ['Poppins'] // Use the global variable here
+        techStack: ['Poppins'], // Use the global variable here
+        Morango: ["Morango"]
       },
     },
   },

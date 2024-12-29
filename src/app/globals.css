@@ -10,8 +10,13 @@
 @font-face {
   font-family: "silkaMedium";
   src: url("/fonts/Silka-Medium.otf") format("opentype");
-  font-weight: 300;
 }
+
+@font-face{
+  font-family: 'Morango';
+  src: url("/fonts/Morango.otf"),;
+}
+
 
 body {
   background: #f7f2f2;
