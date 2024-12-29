@@ -13,6 +13,7 @@ export default {
       },
       fontFamily: {
         custom: ["silkaMedium"],
+        lightCustom: ["silka"],
         techStack: ['Poppins'], // Use the global variable here
         Morango: ["Morango"]
       },
