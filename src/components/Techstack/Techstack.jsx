@@ -1,14 +1,15 @@
-
 export default function Techstack() {
   return (
-    <div className=" rounded-[30px] border-2 p-2 flex flex-col items-center justify-center row-span-2 bg-gradient-to-br from-[#1c2b43] to-black  space-y-4  ">
-      <p className='font-techStack font-extrabold text-white text-[18px]'>Tech Stack</p>
-      <div className="bg-[rgb(15,23,42)] rounded-[30px] h-max text-[10px] p-[16px] bg-gradient-to-br from-[#1c2b43] to-black  w-full ">
+    <div className=" lg:col-span-1 lg:row rounded-[30px]  lg:p-2 p-7 flex flex-col   items-center justify-center lg:row-span-2 bg-gradient-to-br from-[#1c2b43] to-black lg:space-y-4 h-full lg:h-auto  gap-y-[5px]">
+      <p className="font-techStack font-extrabold text-white text-[18px] ">
+        Tech Stack
+      </p>
+      <div className="bg-[rgb(15,23,42)] rounded-[30px] h-max  text-[10px] p-[16px] bg-gradient-to-br from-[#1c2b43] to-black w-[100%]  ">
         <div className="flex items-center">
           <img src="/comp.png" className="w-[17px] h-[17px] mr-[8px] " />
           <p className="text-[#94A3B8]">Programming languages and frameworks</p>
         </div>
-        <div className="flex flex-wrap space-y-[7px] items-end space-x-[3px]">
+        <div className="flex flex-wrap space-y-[7px]  items-end space-x-[3px] ">
           <div className="bg-[rgba(45,212,191,0.1)] p-[5px] text-teal-400  rounded-full h-max ">
             Typescript
           </div>
@@ -45,7 +46,7 @@ export default function Techstack() {
         </div>
       </div>
 
-      <div className="bg-[rgb(15,23,42)] rounded-[25px] h-max text-[10px] p-[16px] bg-gradient-to-br from-[#1c2b43] to-black  w-full">
+      <div className="bg-[rgb(15,23,42)] rounded-[25px] h-max text-[10px] p-[16px] bg-gradient-to-br from-[#1c2b43] to-black w-[100%]  ">
         <div className="flex items-center">
           <img src="/devops.png" className="w-[17px] h-[17px] mr-[8px] " />
           <p className="text-[#94A3B8]">DevOps</p>
@@ -64,9 +65,12 @@ export default function Techstack() {
         </div>
       </div>
 
-      <div className="bg-[rgb(15,23,42)] rounded-[25px] h-max text-[10px] p-[16px] bg-gradient-to-br from-[#1c2b43] to-black  w-full">
+      <div className="bg-[rgb(15,23,42)] rounded-[25px] h-max text-[10px] p-[16px] bg-gradient-to-br from-[#1c2b43] to-black  w-[100%] ">
         <div className="flex items-center">
-          <img src="/database.png" className="w-[17px] h-[17px] mr-[8px] mb-[4px] " />
+          <img
+            src="/database.png"
+            className="w-[17px] h-[17px] mr-[8px] mb-[4px] "
+          />
           <p className="text-[#94A3B8]">Data Storage</p>
         </div>
         <div className="flex flex-wrap space-y-[7px] items-end  space-x-[3px]">
@@ -76,7 +80,7 @@ export default function Techstack() {
         </div>
       </div>
 
-      <div className="bg-[rgb(15,23,42)] rounded-[25px] h-max text-[10px] p-[16px] bg-gradient-to-br from-[#1c2b43] to-black  w-full ">
+      <div className="bg-[rgb(15,23,42)] rounded-[25px] h-max text-[10px] p-[16px] bg-gradient-to-br from-[#1c2b43] to-black w-[100%]  ">
         <div className="flex items-center">
           <img src="/cloud.png" className="w-[17px] h-[17px] mr-[8px] " />
           <p className="text-[#94A3B8]">AWS</p>
