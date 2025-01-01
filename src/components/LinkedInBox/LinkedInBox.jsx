@@ -2,7 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default function LinkedInBox() {
   return (
-    <div className="bg-[rgb(10,102,194)] w-[100%] rounded-[30px] lg:h-[100%]  h-[100px] flex justify-center items-center">
+    <div className="bg-[rgb(10,102,194)] w-[100%] rounded-[30px] lg:h-[100%] h-[270px]  flex justify-center items-center relative bottom-[289px] lg:bottom-0">
       <a
         href="https://www.linkedin.com/in/hamsamuse/"
         className="h-full w-full flex justify-center items-center "
