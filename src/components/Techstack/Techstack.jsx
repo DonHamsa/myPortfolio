@@ -1,6 +1,6 @@
 export default function Techstack() {
   return (
-    <div className=" lg:col-span-1 lg:row rounded-[30px]  lg:p-2 p-9 flex flex-col   items-center justify-center lg:row-span-2 bg-gradient-to-br from-[#1c2b43] to-black lg:space-y-4 h-full lg:h-auto  gap-y-[20px]">
+    <div className=" lg:col-span-1 lg:row rounded-[30px]  lg:p-2 p-9 flex flex-col   items-center justify-center lg:row-span-2 bg-gradient-to-br from-[#1c2b43] to-black lg:space-y-4 h-full lg:h-auto  gap-y-[20px] lg:gap-y-[5px]">
       <p className="font-techStack font-extrabold text-white text-[18px] ">
         Tech Stack
       </p>
