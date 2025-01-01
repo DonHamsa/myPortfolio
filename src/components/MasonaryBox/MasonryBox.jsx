@@ -11,7 +11,7 @@ export default function MasonryBox() {
     "bg-white rounded-[40px] border-2 lg:p-2  flex flex-col items-center justify-center ";
 
   return (
-    <div className=" overflow-hidden grid lg:grid-cols-4 lg:auto-rows-[300px] gap-4 grid-cols-1 lg:p-0 pr-[5%] pl-[5%] ">
+    <div className=" overflow-hidden grid lg:grid-cols-4 lg:auto-rows-[300px] gap-4 grid-cols-1 lg:p-0 pr-[7%] pl-[7%] ">
       {Array.from({ length: 6 }, (_, i) =>
         i == 0 ? (
           <ProfileBox key={i} />

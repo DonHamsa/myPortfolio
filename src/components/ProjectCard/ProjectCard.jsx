@@ -9,7 +9,7 @@ export default function ProjectCard({
   link
 }) {
   return (
-    <div className=" group rounded-[30px] grid grid-cols-2 p-[20px] bg-white h-[300px] w-[500px] gap-7  hover:shadow-xl transition-shadow duration-200">
+    <div className=" group rounded-[30px] grid grid-cols-2 p-[20px] bg-white h-[300px] lg:w-[500px] w-[350px]  gap-7  hover:shadow-xl transition-shadow duration-200">
       <div className="flex-col h-[100%]">
         <div className="h-[85%] flex items-center justify-center ">
           <img
