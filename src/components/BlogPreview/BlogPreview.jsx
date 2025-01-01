@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function BlogPreview({heading, synopsis, date, href}){
   return(
-    <div className='p-[50px] w-[500px] rounded-[30px] bg-white h-auto'>
+    <div className='p-[50px] lg:w-[500px] w-[350px] rounded-[30px] bg-white h-auto'>
       <h2 className="font-Morango text-[18px] mb-[5px]">{heading}</h2>
-      <p className=" text-[15px] mb-[35px] text-gray-500 font-lightCustom">{synopsis}</p>
+      <p className=" lg:text-[15px] mb-[35px] text-gray-500 font-lightCustom">{synopsis}</p>
       <div className="flex justify-between items-center ">
         <Link className="p-[7px] rounded-[30px] border flex justify-center items-center cursor-pointer hover:outline" href={href}>
           <MdArrowOutward className="h-[15px] w-[15px] mr-[5px]"/>

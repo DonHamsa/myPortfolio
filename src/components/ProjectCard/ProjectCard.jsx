@@ -32,7 +32,7 @@ export default function ProjectCard({
       </div>
       <div className="grid grid-rows-[15%_70%_15%] ">
         <div className="font-bold pt-[10px] text-[23px]">{projectName}</div>
-        <div className="text-[12px] font-techStack text-gray-500 pt-[30px]">
+        <div className="lg:text-[12px] text-[10px] font-techStack text-gray-500 pt-[30px]">
           {description}
         </div>
         <div className="flex w-[100%] gap-4 ">
