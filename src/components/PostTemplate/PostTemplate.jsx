@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function PostTemplate({ title, children, date }) {
   return (
-    <div className="lg:p-[0_27%] p-[0_10%] absolute top-0 left-[0] bg-[#f7f2f2]">
+    <div className="lg:p-[0_27%] p-[0_10%] absolute top-0 left-[0] bg-[#f7f2f2] h-[300px]">
       <div className="flex justify-center cursor-pointer mb-[100px] hover:mb-[120px] transition-all duration-300">
         <Link className="rounded-full bg-[#ece9e8] p-[20px] w-max  mt-[20px]" href='/blogs'>
           <RxCross1 />
