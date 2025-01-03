@@ -94,7 +94,7 @@ export default function Post() {
         win. Yes, experience in another industry is worth something at least,
         but that I do not have.
       </p>
-      <span className="mb-[15px] font-bold">Strategy</span>
+      <span className="mb-[15px] font-bold">Desire</span>
       <p>
         I had this idea whilst sitting not so comfortably at some Amazon depot,
         doing a test to assess my readiness to drive their Amazon vans around to
