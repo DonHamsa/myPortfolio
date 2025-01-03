@@ -41,7 +41,7 @@ export default function Education() {
           <img src="/bishops.jpeg" className="h-[18px] w-[21px] "></img>
         </div>
         <div className="grid grid-cols-1  w-[90%] ">
-          <p className="text-white">Warwick University</p>
+          <p className="text-white">Bishopshalt School </p>
           <div className="flex justify-between  ">
             <p className="text-gray-400">A Level Student </p>
             <p className="text-gray-400">2017-20</p>
