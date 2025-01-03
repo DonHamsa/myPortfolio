@@ -12,7 +12,7 @@ export default function Techstack() {
       <div className=" outline outline-[#f3f4f6] rounded-[30px] h-max  text-[10px] p-[16px]  w-[100%]  ">
         <div className="flex items-center">
           <MdComputer className="w-[17px] h-[17px] text-gray-400 mr-[5px]"/>
-          <p className="text-[#94A3B8] mb-[13px] lg:mb-0">Programming languages and frameworks</p>
+          <p className="text-[#94A3B8] mb-[13px] lg:mb-0">languages and frameworks</p>
         </div>
         <div className="flex flex-wrap space-y-[7px]  items-end space-x-[3px] ">
           <div className="bg-[#f2f5f6] p-[5px] text-[black] rounded-full h-max ">
