@@ -10,7 +10,7 @@ export default function Techstack() {
         Tech Stack
       </p>
       <div className=" outline outline-[#f3f4f6] rounded-[30px] h-max  text-[10px] p-[16px]  w-[100%]  ">
-        <div className="flex items-center justify-center border border-red-500">
+        <div className="flex items-center justify-center ">
           <MdComputer className="w-[17px] h-[17px] text-gray-400 mr-[5px]"/>
           <p className="text-[#94A3B8] lg:mb-0">Languages and frameworks</p>
         </div>
