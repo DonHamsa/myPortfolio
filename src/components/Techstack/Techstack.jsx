@@ -11,7 +11,7 @@ export default function Techstack() {
       </p>
       <div className=" outline outline-[#f3f4f6] rounded-[30px] h-max  text-[10px] p-[16px]  w-[100%]  ">
         <div className="flex items-center justify-center p-0 ">
-          <MdComputer className="w-[17px] h-[17px] text-gray-400 mr-[5px] ml-0" />
+          <MdComputer className="w-[17px] h-[17px] text-gray-300 mr-[5px] ml-0" />
           <p className="text-[#94A3B8] lg:mb-0">Languages and frameworks</p>
         </div>
         <div className="flex flex-wrap space-y-[7px]  items-end ">
