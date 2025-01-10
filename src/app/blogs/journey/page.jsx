@@ -95,7 +95,7 @@ export default function Post() {
         but that I do not have.
       </p>
       <span className="mb-[15px] font-bold">Desire</span>
-      <p>
+      <p className="pb-[15px]">
         I had this idea whilst sitting not so comfortably at some Amazon depot,
         doing a test to assess my readiness to drive their Amazon vans around to
         bring parcels to many empty or deadly dog-ridden homes. That idea was
