@@ -14,7 +14,7 @@ An application that helps individuals, especially newcomers, easily find and con
       <ProjectCard
         projectImage="/2048.jpg"
         stack={["/pygame.png", "/python.png"]}
-        projectName="2048 "
+        projectName="2048 Clone "
         description="
  A fully functional clone of the 2048 game with core mechanics, including merging tiles,real-time score updates, move detection, and a final score display upon game over."
         link="https://github.com/DonHamsa/2048-game"
