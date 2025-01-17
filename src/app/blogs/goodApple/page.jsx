@@ -1,6 +1,6 @@
 import PostTemplate from "@/components/PostTemplate/PostTemplate";
 
-export default function beingReal() {
+export default function GoodApple() {
   return (
     <PostTemplate
       title="Why I went from hating to loving Apple"
@@ -54,7 +54,7 @@ export default function beingReal() {
         founder Steve Jobs, and his philosophy of controlling the user
         experience, although he would probably change the word controlling to
         something more positive. He would probably see himself as an artist,
-        creating this wonderful piece that is the result of care , skill and
+        creating this wonderful piece that is the result of care,skill and
         love, and any unconsenting additions destroys and changes the thing all
         together. He believed that closing the system from excessive
         customisation both at the hardware and software level meant that the
@@ -77,7 +77,7 @@ export default function beingReal() {
         My opinions of Apple changed in the last few months to a year lets say.
         Yes, reading Steve Jobs autobiography did make me like the man. Heck, I
         made him my desktop wallpaper 4 months ago and he is still there. I
-        change my wallpaper every month or so, sometimes ever more frequently,
+        change my wallpaper every month or so, sometimes even more frequently,
         but I guess I have become a fan, some would sadly add a boy to the end
         of that.
       </p>
@@ -85,7 +85,7 @@ export default function beingReal() {
         No gimmicks. Excellent build quality. Consistency. Seamless Integration.
         Apple is a lot more than that, but those descriptions are exactly what I
         look for now when making buying decisions. My shit Samsung Galaxy book 4
-        edge.... Not shit , that would just be a lie, an exaggeration. But what
+        edge.... not shit , that would just be a lie, an exaggeration. But what
         makes me angry is how Samsung and all the other laptops in the new
         Qualcomm-powered family range marketed their products. I have no
         background in computer science. I did not know about registers, memory

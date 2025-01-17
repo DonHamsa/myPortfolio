@@ -1,6 +1,6 @@
 import PostTemplate from "@/components/PostTemplate/PostTemplate";
 
-export default function Post() {
+export default function Journey() {
   return (
     <PostTemplate
       title="Why I am optimistic in my job hunt"
