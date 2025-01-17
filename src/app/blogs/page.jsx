@@ -6,7 +6,7 @@ export default function Blogs() {
      <div className="lg:pr-[25%] lg:pl-[25%]  pl-[7%] pr-[7%] flex justify-center mb-[20px] lg:h-[300px] h-[370px]  ">
         <BlogPreview
           heading="What even is Politics?"
-          synopsis="Democracy should mean every one shuts up most of the time. The 'elected' people doing the work of those who elected them.BREXIT,Labour,Conservatives. The noise suggests we have dictators in charge...."
+          synopsis="Democracy should mean every one shuts up most of the time. The elected people doing the work of those who elected them.Brexit,Labour,Conservatives. The noise suggests we have dictators in charge...."
           date="17th Jan 2025"
           href="blogs/politics"
         />
