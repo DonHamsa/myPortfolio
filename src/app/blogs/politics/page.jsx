@@ -28,7 +28,7 @@ export default function Journey() {
       </p>
       
       <p className="mb-[19px] pb-[20px]">
-      As I get older, I will definitely change my opinion about Politics in general, but I just feel like it is the worst profession in the world. It feels like you get blamed for everything. You can try your best, have the best intentions, but you will always be playing the blame game with the public and journalists. It is just boring, but the money is not too bad. 
+      As I get older, I will definitely change my opinion about Politics in general, but I just feel like it is the worst job in the world. It feels like you get blamed for everything. You can try your best, have the best intentions, but you will always be playing the blame game with the public and journalists. It is just boring, but the money is not too bad. 
       </p>
     </PostTemplate>
   );
