@@ -7,7 +7,7 @@ export default function GoodApple() {
         As I was writing my last few of blogs I realised that I was veering back into
         my university days, just researching and learning for the sake of an
         exam. What does this mean? It means that I want to really understand a
-        topic well enough before I pass judgment, before I rip into those
+        topic well enough before I pass judgment, before I rip into the
         wrongdoers and empathise with the wronged. Writing the last post about
         politics was the turning point. I think I know a decent amount about
         politics, a decent amount of economics without studying it academically.
