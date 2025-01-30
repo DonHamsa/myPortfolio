@@ -7,7 +7,7 @@ export default function Blogs() {
         <BlogPreview
           heading="The end of January"
           synopsis="This month has felt the weirdest out of the last 18 months. I just finished a 3-month project and I feel like I have stepped right into chaos.I still have structure in my days, but this job could not come any sooner...  "
-          date="17th Jan 2025"
+          date="30th Jan 2025"
           href="blogs/endOfJan"
         />
       </div>
