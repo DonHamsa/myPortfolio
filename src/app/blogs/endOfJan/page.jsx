@@ -4,7 +4,7 @@ export default function GoodApple() {
   return (
     <PostTemplate title="End of the Month" date="30th Jan 2025">
       <p className="mb-[19px]">
-        As I was writing my last few of blogs I realised that I was veering back into
+        As I was writing my last few blogs I realised that I was veering back into
         my university days, just researching and learning for the sake of an
         exam. What does this mean? It means that I want to really understand a
         topic well enough before I pass judgment, before I rip into the
