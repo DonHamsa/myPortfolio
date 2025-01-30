@@ -42,7 +42,7 @@ export default function GoodApple() {
         MP really knows the details of their portfolio. You could be minister of
         the Police and Probation Service and really not know a thing, and the
         same goes for every department in government. The civil service takes
-        free reign and you are there to show face and toe the party line. I am
+        free rein and you are there to show face and toe the party line. I am
         almost finished and this book has really grown on me, it makes my
         opinion on politics feel truer, that politics does not make sense.
       </p>
