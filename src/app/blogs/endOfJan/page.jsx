@@ -32,7 +32,7 @@ export default function GoodApple() {
 
       <p className="mb-[19px]">
         I am also currently reading Politics on the Edge by Rory Stewart and
-        that book really is something. The inner-working of parliament one could
+        that book really is something. The inner workings of parliament one could
         imagine to be full of stabbing, back-chatting and betrayal. But to
         actually read about these things is truly astonishing. Boris Johnson’s
         media interviews and talks are not fake, they are not acts or a facade
