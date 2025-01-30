@@ -5,6 +5,14 @@ export default function Blogs() {
     <>
       <div className="lg:pr-[25%] lg:pl-[25%]  pl-[7%] pr-[7%] flex justify-center mb-[20px] lg:h-[300px] h-[370px]  ">
         <BlogPreview
+          heading="The end of January"
+          synopsis="This month has felt the weirdest out of the last 18 months. I just finished a 3-month project and I feel like I have stepped right into chaos.I still have structure in my days, but this job could not come any sooner...  "
+          date="17th Jan 2025"
+          href="blogs/endOfJan"
+        />
+      </div>
+      <div className="lg:pr-[25%] lg:pl-[25%]  pl-[7%] pr-[7%] flex justify-center mb-[20px] lg:h-[300px] h-[370px]  ">
+        <BlogPreview
           heading="What even is Politics?"
           synopsis="Democracy should mean every one shuts up most of the time. The elected people doing the work of those who elected them. Brexit, Labour, Conservatives. The noise suggests we have dictators in charge...."
           date="17th Jan 2025"
