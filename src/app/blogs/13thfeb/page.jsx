@@ -32,7 +32,7 @@ export default function GoodApple() {
         thought I asked good questions. Questions that were the result of hours
         of research into the company and whose answers were not available
         anywhere but from those who worked and walked the halls of the offices.
-        The Lego activity my guess is where I underperformed. But to guess is
+        The Lego activity I guess is where I underperformed. But to guess is
         pointless. I just have to wait to hear the feedback and action on it for
         a next time.
       </p>
