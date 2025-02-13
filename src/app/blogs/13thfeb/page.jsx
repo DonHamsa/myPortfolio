@@ -25,7 +25,7 @@ export default function GoodApple() {
         The path forward looks less brighter than it did a few days ago. But I
         wait. I wait for the feedback to improve. To pick myself up, dust my
         self down and come back a stronger and more improved candidate. And if I
-        fall back again. I repeat. Repeat and then repeat again.
+        fall back again, I repeat. Repeat and then repeat again.
       </p>
       <p className="mb-[19px]">
         It is not the right time to be in deep thought about the activities. I
