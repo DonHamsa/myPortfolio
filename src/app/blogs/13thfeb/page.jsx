@@ -48,7 +48,7 @@ export default function GoodApple() {
       <p className="mb-[19px] pb-[19px]">
         So the race continues, the competition is on. It is on me to win, and
         there are many battles ahead to prove myself. For now I failed, I was
-        poor and not good enough. But the beauty of life, is that you get a chance to be
+        poor and not good enough. But the beauty of life is that you get a chance to be
         victorious every second of every day until your last, dying breath.
       </p>
     </PostTemplate>
