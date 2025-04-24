@@ -35,10 +35,10 @@ main{
   }
 }
 
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   main {
     padding: 150px 0;
   }
-}
+} */
 
 
