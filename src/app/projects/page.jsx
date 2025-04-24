@@ -2,8 +2,8 @@ import ProjectCard from "@/components/ProjectCard/ProjectCard";
 
 export default function Projects() {
   return (
-    <div className="flex lg:grid lg:grid-cols-2 flex-col gap-9 justify-center items-center lg:p-0 pl-[7%] pr-[7%] ">
-      <ProjectCard
+    <div className="flex lg:justify-evenly flex-col lg:flex-row items-center gap-9  ">
+      <ProjectCard 
         projectImage="/playpal.png"
         stack={["/stream.png", "/next.png", "supa.png"]}
         projectName="PlayPal"

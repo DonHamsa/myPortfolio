@@ -6,7 +6,7 @@ export default function Blogs() {
     <div className="lg:pr-[25%] lg:pl-[25%]  pl-[7%] pr-[7%] flex justify-center mb-[20px] lg:h-[300px] h-[370px]  ">
         <BlogPreview
           heading="Falling at the final hurdle"
-          synopsis="I wanted it. I needed it. I worked towards it. I did not get it. The inquest should not begin now. It will begin when I have all the information and the sadness subsides. However, putting thoughts into writing I think does help a bit."
+          synopsis="I wanted it. I needed it. I worked towards it. I did not get it. The inquest should not begin now. It should begin when I have all the information. When the sadness finally subsides. However, putting thoughts into writing I think does help a bit."
           date="13th Feb 2025"
           href="blogs/13thfeb"
         />
@@ -14,7 +14,7 @@ export default function Blogs() {
       <div className="lg:pr-[25%] lg:pl-[25%]  pl-[7%] pr-[7%] flex justify-center mb-[20px] lg:h-[300px] h-[370px]  ">
         <BlogPreview
           heading="The end of January"
-          synopsis="This month has felt the weirdest out of the last 18 months. I just finished a 3-month project and I feel like I have stepped right into chaos.I still have structure in my days, but this job could not come any sooner."
+          synopsis="This month has felt the weirdest out of the last 18 . I just finished a 3-month project and I feel like I have stepped right into chaos.I still have structure in my days, but this job could not come soon enough."
           date="30th Jan 2025"
           href="blogs/endOfJan"
         />

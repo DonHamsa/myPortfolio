@@ -22,7 +22,7 @@ export default function GoodApple() {
       </p>
 
       <p className="mb-[19px]">
-        The path forward looks less brighter than it did a few days ago. But I
+        The path forward looks less bright than it did a few days ago. But I
         wait. I wait for the feedback to improve. To pick myself up, dust my
         self down and come back a stronger and more improved candidate. And if I
         fall back again, I repeat. Repeat and then repeat again.

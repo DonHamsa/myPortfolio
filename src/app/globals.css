@@ -25,11 +25,20 @@ body {
 }
 
 main{
-  padding:4% 11% 
+  padding:4% 10% 
+}
+
+@media (min-width: 1920px) {
+  main{
+  padding-left: 20%;
+  padding-right:20%;
+  }
 }
 
 @media (max-width: 640px) {
   main {
-    padding: 11% 0;
+    padding: 150px 0;
   }
 }
+
+
