@@ -16,18 +16,35 @@ export default function MasonryBox() {
         i == 0 ? (
           <ProfileBox key={i} />
         ) : i == 1 ? (
-          <ProfileImage key={i} />
+          <>
+            <div className="border-red-500 space-y-10  ">
+              <ProfileImage />
+              <div className="lg:hidden border border-red-500 space-y-10">
+                <Education />
+                <LinkedInBox />
+                <GitHubBox />
+              </div>
+            </div>
+          </>
         ) : i == 2 ? (
           <Techstack key={i} />
-        ) : i === 4? (
-          <GitHubBox key={i} />
+        ) : i === 4 ? (
+          <div className="hidden lg:block">
+            <GitHubBox key={i} />
+          </div>
         ) : i == 5 ? (
-          <LinkedInBox key={i} />
-        ) : i==3? <Education key={i}/> : (
+          <div className="hidden lg:block">
+            <LinkedInBox key={i} />
+          </div>
+        ) : i == 3 ? (
+          <div className="hidden lg:block">
+            <Education key={i} />{" "}
+          </div>
+        ) : (
           <div
             key={i}
             className={`${boxStyle} ${i === 6 ? "lg:col-span-2" : ""} ${
-              i === 5 &&  ""
+              i === 5 && ""
             }`}
           ></div>
         )
