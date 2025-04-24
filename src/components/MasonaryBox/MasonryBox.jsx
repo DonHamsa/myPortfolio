@@ -19,7 +19,7 @@ export default function MasonryBox() {
           <>
             <div className="border-red-500 space-y-10  ">
               <ProfileImage />
-              <div className="lg:hidden border border-red-500 space-y-10">
+              <div className="lg:hidden space-y-10">
                 <Education />
                 <LinkedInBox />
                 <GitHubBox />
