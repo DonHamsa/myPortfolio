@@ -20,7 +20,7 @@ export default function ProfileBox() {
         experiences.
       </p>
       <p className="mt-[6px] text-grey text-[10px]  text-gray-500">
-        I am an incoming Data Engineer Apprentice at Thales looking to develop and use my skill set to transform data into useful and insightful information to optimise business processes and operations. 
+        I am an incoming Data Engineer Apprentice at Thales looking to develop and use my skill set to transform data into useful and insightful information to help optimise business processes and operations. 
       </p>
     </div>
   );
