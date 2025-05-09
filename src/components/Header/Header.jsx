@@ -20,7 +20,9 @@ export default function Header() {
           ? setActiveIndex(0)
           : pathName === "/projects"
           ? setActiveIndex(1)
-          : setActiveIndex(2);
+          : pathName === "/blogs"
+          ? setActiveIndex(2)
+          : setActiveIndex(3);
       }
     }
   }, [pathName]);
@@ -28,22 +30,24 @@ export default function Header() {
   return (
     <div className="flex lg:justify-between justify-center  bg-blue ml-[30px] mr-[30px] ">
       <div></div>
-      <div className="flex flex-row justify-between w-[340px] bg-[#EDE9E9] h-[45px] items-center rounded-[19px] pl-[4px] pr-[4px] mt-0 pt-[3px] pb-[3px] text-[14px] font-custom gap-5 ">
-        {["About", "Projects", "Blogs"].map((item, index) => (
+      <div className="flex flex-row justify-between w-100% bg-[#EDE9E9] h-[45px] items-center rounded-[19px] pl-[2px] pr-[2px] mt-0 pt-[3px] pb-[3px] text-[14px] font-custom gap-5 ">
+        {["About", "Projects", "Blogs", "Photography"].map((item, index) => (
           <Link
             href={
               item === "About"
                 ? "/"
                 : item === "Projects"
                 ? "/projects"
-                : "/blogs"
+                : item === "Blogs"
+                ? "/blogs"
+                : "/photography"
             }
             className=" h-full flex flex-grow "
             key={index}
           >
             <p
               onClick={() => handleClick(index)} // Update active index on click
-              className={`flex-grow text-center h-full flex items-center justify-center rounded-[19px] cursor-pointer
+              className={`flex-grow text-center h-full flex items-center justify-center rounded-[19px] cursor-pointer p-[13px]
              ${
                activeIndex === index
                  ? "bg-white text-black"
